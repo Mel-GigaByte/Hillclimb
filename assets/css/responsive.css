@@ -10,9 +10,6 @@
         width: 27px!important;
         height: 25px;
     }
-    .container.u-bg-overlay__inner.g-pt-225 {
-        padding-top: 15.07142rem !important;
-    }
     h4 {
         font-size: 23px;
     }
@@ -53,15 +50,15 @@
         padding-bottom: 15px !important;
         font-size: 30px
     }
+    .my-sponsor {
+        display: inline-block;
+        opacity: 3;
+        margin-top: 0!important;
+    }
    
 }
-@media (min-width: 360px) and (max-width:740px) {
-    .container.u-bg-overlay__inner.g-pt-225 {
-        padding-top: 17.07142rem !important;
-    }
-}
 @media (max-width: 767px) {
-    .navbar-expand-lg>.container,
+    /* .navbar-expand-lg>.container,
     .navbar-expand-lg>.container-fluid,
     .navbar-expand-lg>.container-lg,
     .navbar-expand-lg>.container-md,
@@ -69,14 +66,11 @@
     .navbar-expand-lg>.container-xl {
         padding-right: 15px;
         padding-left: 15px;
-    }
+    } */
     .my-sponsor {
         display: inline-block;
         opacity: 3;
-        margin-top: 0;
-    }
-    .container.u-bg-overlay__inner.g-pt-225{
-        padding-top: 20.07142rem !important;
+        margin-top: 40px;
     }
     .container.g-pt-75 {
         padding-top: 1.35714rem !important;
@@ -96,15 +90,6 @@
     }
     .hamburger--slider .hamburger-inner {
         top:50%;
-    }
-    .container-fluid,
-    .container-lg,
-    .container-md,
-    .container-sm,
-    .container-xl {
-        padding-right: 15px !important;
-        padding-left: 15px !important;
-        overflow: hidden
     }
 
     .logo {
@@ -195,9 +180,11 @@
 
     .h2,
     h2 {
-        font-size: 29px
+        font-size: 21px;
     }
-
+    .intro-quote .lead p{
+        font-size: 14px!important;
+    }
     .contact h2,
     .events .h2 {
         font-size: 40px;
@@ -259,12 +246,13 @@
     .three-column-blocks h2 {
         font-size: 38px;
     }
-
-    .navbar.navbar-expand-lg {
-        padding-left: 0;
-        padding-right: 0
+    .lead p {
+        font-size: 21px;
     }
-
+    .quote-bg .lead {
+        font-size: 14px!important;
+            
+    }
     .navbar-collapse {
         background-color: #111111;
         padding: 25px 0;
@@ -390,15 +378,12 @@
 }
 
 @media (min-width: 768px) and (max-width:991px) {
-
-    .container-fluid,
-    .container-lg,
-    .container-md,
-    .container-sm,
-    .container-xl {
-        padding-right: 15px !important;
-        padding-left: 15px !important;
-        overflow: hidden
+    .how-to img {
+        width: 50%;
+        
+    }
+    .involved-donate {
+        width: 26%;
     }
     .navbar-toggler.g-top-3 {
         top: 20%!important;
@@ -607,17 +592,6 @@
     }
 }
 
-@media (max-width:820px) {
-    .g-bg-img-hero {
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 83vh;
-    }
-    .container.u-bg-overlay__inner.g-pt-225 {
-        padding-top: 48.07142rem !important;
-    }
-}
 @media (min-width: 992px) and (max-width:1199px) {
     .main-slider-static-text .card-body.p-lg-5 {
         padding: 0 !important
@@ -838,6 +812,17 @@
     .green .h2 {
         font-size: 30px;
         font-weight: 600
+    }
+    .h2, h2 {
+        font-size: 34px;
+    }
+    .intro-quote .lead p {
+        font-size: 20px;
+    }
+    a,
+    li,
+    p {
+        font-size: 15px;
     }
 }
 
